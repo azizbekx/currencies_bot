@@ -1,5 +1,9 @@
-package uz.pdp.online;
+package com.example;
 
+import com.example.model.CurrencyModel;
+import com.example.model.User;
+import com.example.service.Convertor;
+import com.example.service.CurrencyData;
 import org.telegram.telegrambots.bots.TelegramLongPollingBot;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.Update;
@@ -9,10 +13,6 @@ import org.telegram.telegrambots.meta.api.objects.replykeyboard.buttons.InlineKe
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.buttons.KeyboardButton;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.buttons.KeyboardRow;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
-import uz.pdp.online.model.CurrencyModel;
-import uz.pdp.online.model.User;
-import uz.pdp.online.service.Convertor;
-import uz.pdp.online.service.CurrencyData;
 
 import java.util.ArrayList;
 import java.util.HashMap;

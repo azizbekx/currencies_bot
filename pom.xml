@@ -17,7 +17,7 @@
                     <assembleDirectory>target</assembleDirectory>
                     <programs>
                         <program>
-                            <mainClass>uz.pdp.online.Main</mainClass>
+                            <mainClass>com.example.Main</mainClass>
                             <name>Bot_Currencies_inform</name>
                         </program>
                     </programs>

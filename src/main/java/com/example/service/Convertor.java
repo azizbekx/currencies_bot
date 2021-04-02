@@ -1,6 +1,6 @@
-package uz.pdp.online.service;
+package com.example.service;
 
-import uz.pdp.online.model.CurrencyModel;
+import com.example.model.CurrencyModel;
 
 import java.util.ArrayList;
 

@@ -1,4 +1,4 @@
-package uz.pdp.online.model;
+package com.example.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

@@ -1,9 +1,9 @@
-package uz.pdp.online.service;
+package com.example.service;
 
+import com.example.model.CurrencyModel;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
-import uz.pdp.online.model.CurrencyModel;
 
 import java.io.BufferedReader;
 import java.io.IOException;
