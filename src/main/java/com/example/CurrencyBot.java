@@ -68,11 +68,11 @@ public class CurrencyBot extends TelegramLongPollingBot {
 
 
     public String getBotToken() {
-        return "1442309952:AAF2LX4pB6BjgOuxdx7LiFWlz7BclVAwFak";
+        return "key";
     }
 
     public String getBotUsername() {
-        return "@currencies_informbot";
+        return "username";
     }
 
     public SendMessage sendMsg(Update update, User user) {
